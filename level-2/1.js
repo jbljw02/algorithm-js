@@ -1,0 +1,14 @@
+const fs = require('fs');
+const input = fs.readFileSync('/dev/stdin').toString().trim().split(' ');
+
+const a = parseInt(input[0]);
+const b = parseInt(input[1]);
+const c = parseInt(input[2]);
+
+if (a > b) {
+    console.log(">");
+} else if (a < b) {
+    console.log("<");
+} else {
+    console.log("==");
+}
