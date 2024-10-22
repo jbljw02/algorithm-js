@@ -1,3 +1,4 @@
+// 너비 우선 탐색 - BFS
 const bfs = (graph, start) => {
     const visited = new Set(); // 방문한 노드를 추적하기 위한 Set
     const queue = [start]; // 큐는 노드를 순서대로 관리해야 하기 때문에, start를 배열로 생성
