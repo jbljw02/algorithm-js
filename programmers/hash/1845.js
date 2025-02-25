@@ -1,3 +1,4 @@
+// level 1 - 폰켓몬
 function solution(nums) {
     const arr = [...new Set(nums)]; // 중복 제거
     const max = nums.length / 2; // 선택 가능한 수: 개수에 2를 나눈 값

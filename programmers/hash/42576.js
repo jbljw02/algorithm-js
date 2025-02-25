@@ -1,3 +1,4 @@
+// level 1 - 완주하지 못한 선수
 function solution(participant, completion) {
     const map = new Map(); // key - value 쌍을 가지는 Map 객체 생성
 
