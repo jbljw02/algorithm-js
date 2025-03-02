@@ -1,3 +1,4 @@
+// level 1 - 같은 숫자는 싫어
 function solution(arr) {
     const stack = [];
 

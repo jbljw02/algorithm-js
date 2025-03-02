@@ -1,3 +1,4 @@
+// level 2 - 기능개발
 function solution(progresses, speeds) {
     let answer = [];
 
